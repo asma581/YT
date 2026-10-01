@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Compose draws everything; this theme only affects the window before Compose starts. -->
+    <style name="Theme.FocusTube" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <color name="ic_launcher_background">#00696B</color>
+</resources>

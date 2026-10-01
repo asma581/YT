@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FocusTube</string>
+
+    <!-- Bottom navigation -->
+    <string name="tab_focus">Focus</string>
+    <string name="tab_learn">Learn</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Focus screen -->
+    <string name="focus_on">Focus mode is on</string>
+    <string name="focus_off">Focus mode is off</string>
+    <string name="focus_off_body">Start a session to block YouTube\'s distractions. You can still learn from educational videos in FocusTube.</string>
+    <string name="focus_reason_session">Your session ends at %1$s</string>
+    <string name="focus_reason_schedule">Your schedule ends at %1$s</string>
+    <string name="focus_reason_both">Session and schedule end at %1$s</string>
+    <string name="focus_start_title">Start a focus session</string>
+    <string name="focus_extend_title">Need more time?</string>
+    <string name="focus_start_button">Focus for %1$s</string>
+    <string name="focus_extend_button">Make sure focus lasts at least %1$s</string>
+    <string name="focus_end_button">End session now</string>
+    <string name="focus_find_something">Find something to learn</string>
+    <string name="strict_mode_title">Strict mode</string>
+    <string name="strict_mode_description">While focus is on, you can\'t end the session early or loosen your filters.</string>
+    <string name="strict_locked_focus">Strict mode is on. You can end the session or turn strict mode off when focus time is over.</string>
+    <string name="strict_locked_settings">Strict mode is on. You can add blocked words, but other changes wait until focus time is over.</string>
+    <string name="strict_locked_player">Strict mode is on. You can trust new channels after focus time.</string>
+
+    <!-- Accessibility service set-up -->
+    <string name="blocker_setup_title">Turn on the YouTube blocker</string>
+    <string name="blocker_setup_body">Without it, FocusTube can\'t stop the YouTube app or youtube.com from opening during focus time.</string>
+    <string name="blocker_setup_button">Set up blocker</string>
+    <string name="blocker_disclosure_title">Why FocusTube needs Accessibility</string>
+    <string name="blocker_disclosure_body">FocusTube uses Android\'s Accessibility service to see when the YouTube app, or youtube.com in a web browser, comes on screen during focus time, and then shows a \"Stay focused\" screen instead.\n\nIt only looks at YouTube apps and web browsers, only checks the app name and the address bar, and never stores or shares anything it sees.\n\nOn the next screen, tap \"FocusTube\" and switch it on.</string>
+    <string name="blocker_disclosure_agree">Open settings</string>
+    <string name="accessibility_service_description">Blocks the YouTube app and youtube.com during your focus time so you can stay on track. FocusTube only checks which app is open and the address of the web page. Nothing is stored or shared.</string>
+
+    <!-- Blocked screen -->
+    <string name="blocked_title">Stay focused</string>
+    <string name="blocked_body">YouTube is blocked during focus time.</string>
+    <string name="blocked_body_until">YouTube is blocked until %1$s. Want to learn something instead?</string>
+    <string name="blocked_open_focustube">Learn in FocusTube</string>
+    <string name="blocked_close">Close</string>
+
+    <!-- Learn screen -->
+    <string name="learn_search_hint">What do you want to learn?</string>
+    <string name="learn_intro">Search YouTube for lessons. Only videos that pass your filters are shown.</string>
+    <string name="learn_no_results">No educational videos found for this search. Try different words.</string>
+    <string name="learn_load_more">Load more</string>
+    <plurals name="learn_hidden_count">
+        <item quantity="one">%1$d non-educational result hidden</item>
+        <item quantity="other">%1$d non-educational results hidden</item>
+    </plurals>
+
+    <!-- Player screen -->
+    <string name="player_title">Now learning</string>
+    <string name="player_blocked_title">This video doesn\'t look educational</string>
+    <string name="player_trust_explainer">If this channel is a real teacher whose videos are in the wrong category, you can trust it. All its videos will then play (except Shorts).</string>
+    <string name="player_trust_button">Trust %1$s</string>
+    <string name="player_untrust_button">Stop trusting this channel</string>
+
+    <!-- Settings screen -->
+    <string name="schedule_title">Weekly schedule</string>
+    <string name="schedule_enabled">Focus automatically at set times</string>
+    <string name="schedule_from">From</string>
+    <string name="schedule_to">To</string>
+    <string name="categories_title">Allowed categories</string>
+    <string name="categories_body">Creators choose a category when they upload. Only videos in these categories are allowed.</string>
+    <string name="block_shorts">Block YouTube Shorts</string>
+    <string name="keywords_title">Blocked words</string>
+    <string name="keywords_body">Videos with these words in the title or tags are hidden, even in allowed categories.</string>
+    <string name="keywords_add_hint">Add a word</string>
+    <string name="trusted_title">Trusted channels</string>
+    <string name="trusted_empty">None yet. You can trust a channel from a blocked video\'s page.</string>
+    <string name="api_key_title">YouTube API key</string>
+    <string name="api_key_built_in">A key was built into this app. Enter one here only to replace it.</string>
+    <string name="api_key_missing">Searching needs a free YouTube Data API v3 key. The README explains how to get one.</string>
+    <string name="api_key_label">API key</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="save">Save</string>
+    <string name="remove">Remove</string>
+    <string name="retry">Try again</string>
+    <string name="back">Back</string>
+    <string name="not_now">Not now</string>
+    <string name="show_more">Show more</string>
+    <string name="show_less">Show less</string>
+</resources>
